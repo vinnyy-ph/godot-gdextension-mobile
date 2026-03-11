@@ -1,0 +1,21 @@
+[configuration]
+entry_symbol = "mobile_ext_library_init"
+compatibility_minimum = "4.1"
+
+[libraries]
+
+; ── Desktop (development / testing) ─────────────────────────
+windows.debug.x86_64     = "res://bin/mobile_ext.windows.template_debug.dll"
+windows.release.x86_64   = "res://bin/mobile_ext.windows.template_release.dll"
+macos.debug              = "res://bin/libmobile_ext.macos.template_debug.dylib"
+macos.release            = "res://bin/libmobile_ext.macos.template_release.dylib"
+linux.debug.x86_64       = "res://bin/libmobile_ext.linux.template_debug.so"
+linux.release.x86_64     = "res://bin/libmobile_ext.linux.template_release.so"
+
+; ── Android ──────────────────────────────────────────────────
+android.debug.arm64      = "res://bin/libmobile_ext.android.template_debug.so"
+android.release.arm64    = "res://bin/libmobile_ext.android.template_release.so"
+
+; ── iOS ──────────────────────────────────────────────────────
+ios.debug                = "res://bin/libmobile_ext.ios.template_debug.dylib"
+ios.release              = "res://bin/libmobile_ext.ios.template_release.dylib"

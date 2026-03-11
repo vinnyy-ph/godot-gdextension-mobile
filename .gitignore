@@ -1,0 +1,32 @@
+# ============================================================
+#  Godot GDExtension C++ – .gitignore
+# ============================================================
+
+# ── Godot editor artefacts ──────────────────────────────────
+game/.godot/
+*.import
+export_presets.cfg
+
+# ── C++ build artefacts ─────────────────────────────────────
+build/
+bin/*.so
+bin/*.dll
+bin/*.dylib
+bin/*.framework/
+bin/*.aar
+
+# ── SCons cache ─────────────────────────────────────────────
+.sconsign.dblite
+.scons_temp/
+
+# ── OS junk ─────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE / editor ─────────────────────────────────────────────
+.vscode/
+.idea/
+*.user
+*.suo
+*.sdf
