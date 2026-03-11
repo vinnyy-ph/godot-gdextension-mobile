@@ -326,5 +326,3 @@ git submodule update --init --recursive
 Keep commits focused and descriptive. If you're unsure about a change, open an **Issue** first.
 
 ---
-
-*Built with ❤️ in the Philippines 🇵🇭*
